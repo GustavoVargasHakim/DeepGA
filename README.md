@@ -8,3 +8,10 @@ DeepGA is a novel framework to evolve Convolutional Neural Networks, using a Gen
  
 <img src="Images/NewEncoding.png" width="581" height="364">
 
+## Images
+
+The chest X-ray images have been obtained from (https://github.com/ari-dasci/OD-covidg, https://github.com/ieee8023/covid-chestxray-dataset, and https://github.com/agchung/Actualmed-COVID-chestxray-dataset). The available images are categorized as COVID-19, viral/bacterial pneumonia, and healthy. A prepropcessing has already been applied to the entire image set in order to augment their quality. Please see https://ieeexplore.ieee.org/document/9090149 for more details.
+
+## How to use DeepGA?
+
+All the files in DeepGA are based on Python 3.7, using PyTorch as the Deep Learning framework. To use the single objective version, **DeepGA.py** must be run. Notice that the configuration of these programs is for a dual-GPU training; two CNNs are trained at the same time during the GA. 
