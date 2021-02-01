@@ -18,7 +18,7 @@ All the files in DeepGA are based on Python 3.7, using PyTorch as the Deep Learn
 
 The Multi-Objective version of DeepGA, **MODeepGA.py**, contains the necessary adjustments for DeepGA to work with two objective functions. Notice that, when the Wang encoding is utilized, the programs for single- and multi-objective Neuroevolution are **WangDeepGA.py** and **MOWang.py**. In both cases, the configuration needs little to no changes. 
 
-The configuration parameters of DeepGA are:
+The user-available parameters of DeepGA are:
 
 ```
 lr = 1e-4 #Learning rate
