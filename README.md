@@ -38,3 +38,17 @@ t_size = 5 #tournament size
 w = 0.3 #penalization weight (for single-objective DeepGA only)
 max_params = 2e6
 num_epochs = 10```
+
+## How to properly cite DeepGA?
+
+DeepGA is the source code of the paper "Hybrid Encodings for Neuroevolution of Convolutional Neural Networks: A Case Study" published at the Workshop Neuroevolution at Work from the ACM Genetic and Evolutionary Computation Conference (GECCO'21). A citation of this paper when using the source code is highly appreciated:
+
+@Inproceedings{DeepGA2021,
+  author =  "Gustavo-Adolfo Vargas-Hákim and Efrén Mezura-Montes and Héctor-Gabriel Acosta-Mesa",
+  title =        "Hybrid Encodings for Neuroevolution of Convolutional Neural Networks: A Case Study",
+  booktitle =    "Proceedings of the 2020 Genetic and Evolutionary Computation Conference Companion",
+  year =         "2021",
+  publisher =    "Association for Computing Machinery",
+  pages =        "",
+  doi = 	 "",
+}
