@@ -37,7 +37,8 @@ T = 50 #Number of generations
 t_size = 5 #tournament size
 w = 0.3 #penalization weight (for single-objective DeepGA only)
 max_params = 2e6
-num_epochs = 10```
+num_epochs = 10
+```
 
 ## How to properly cite DeepGA?
 
