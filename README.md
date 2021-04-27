@@ -16,7 +16,7 @@ The chest X-ray images have been obtained from (https://github.com/ari-dasci/OD-
 
 All the files in DeepGA are based on Python 3.7, using PyTorch as the Deep Learning framework. To use the single objective version, **DeepGA.py** must be run. Notice that the configuration of this program is made for a dual-GPU training; two CNNs are trained at the same time during the GA. The program **DistributedTraining.py** contains this configuration (but it should not be modified). It is highly encouraged to use at least two GPU to speed up the Neuroevolution process. 
 
-The Multi-Objective version of DeepGA, **MODeepGA.py**, contains the necessary adjustments for DeepGA to work with two objective functions. Notice that, when the Wang encoding is utilized, the programs for single- and multi-objective Neuroevolution are **WangDeepGA.py** and **MOWang.py**. In both cases, the configuration needs little to no changes. 
+The Multi-Objective version of DeepGA, **MODeepGA.py**, contains the necessary adjustments for DeepGA to work with two objective functions. Notice that, when the Wang encoding is utilized, the programs for single- and multi-objective Neuroevolution are **WangDeepGA.py** and **MOWang.py**, respectively. In both cases, the configuration needs little to no changes. 
 
 The user-available parameters of DeepGA are:
 
