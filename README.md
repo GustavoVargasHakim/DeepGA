@@ -48,7 +48,7 @@ DeepGA is the source code of the paper "Hybrid Encodings for Neuroevolution of C
 @Inproceedings{DeepGA2021,
   author =  "Gustavo-Adolfo Vargas-Hákim and Efrén Mezura-Montes and Héctor-Gabriel Acosta-Mesa",
   title =        "Hybrid Encodings for Neuroevolution of Convolutional Neural Networks: A Case Study",
-  booktitle =    "Proceedings of the 2020 Genetic and Evolutionary Computation Conference Companion",
+  booktitle =    "2021 Genetic and Evolutionary Computation Conference Companion (GECCO '21 Companion)",
   year =         "2021",
   publisher =    "Association for Computing Machinery",
   pages =        "",
