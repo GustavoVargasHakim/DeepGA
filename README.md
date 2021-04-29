@@ -52,6 +52,6 @@ DeepGA is the source code of the paper "Hybrid Encodings for Neuroevolution of C
   year =         "2021",
   publisher =    "Association for Computing Machinery",
   pages =        "",
-  doi = 	 "",
+  doi = 	 "10.1145/3449726.3463133",
 }
 ```
